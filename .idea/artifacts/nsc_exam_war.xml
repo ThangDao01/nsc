@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nsc-exam:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nsc-exam</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="nsc-exam-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="nsc-exam:war exploded" />
+    </root>
+  </artifact>
+</component>
