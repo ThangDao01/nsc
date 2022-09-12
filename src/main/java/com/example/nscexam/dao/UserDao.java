@@ -15,7 +15,7 @@ public class UserDao {
     public User getUser(String pName, String password) {
         User user = null;
 
-        String sql = "select * from nsc where username = '"+pName +"' and password = '" +password + "'";
+        String sql = "select * from nsc where username = '"+pName +"' and password = '" + password+ "'" ;
 
         try {
 
